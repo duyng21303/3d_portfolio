@@ -20,6 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import web_api from "./tech/webapi.png";
+import signalR from "./tech/signalR.svg";
+import net_core from "./tech/netcore.png";
+import ajax from "./tech/ajax.png";
+import csharp from "./tech/csharp.png";
+import cplus from "./tech/cplus.png";
+import java from "./tech/java.svg";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -31,6 +39,12 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  java,
+  csharp,
+  cplus,
+  web_api,
+  net_core,
+  signalR,
   logo,
   backend,
   creator,
@@ -59,4 +73,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  ajax,
 };

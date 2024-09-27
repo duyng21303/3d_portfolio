@@ -23,6 +23,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    ajax,
+    net_core,
+    signalR,
+    web_api,
+    csharp,
+    cplus,
+    java,
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +49,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: ".NET Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Web Developer",
       icon: mobile,
     },
     {
@@ -54,12 +61,44 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Full Stack Developer",
       icon: creator,
     },
   ];
   
   const technologies = [
+    {
+      name: "C#",
+      icon: csharp,
+    },
+    {
+      name: ".Net Core",
+      icon: net_core,
+    },
+    {
+      name: "Web API",
+      icon: web_api,
+    },
+    {
+      name: "SignalR",
+      icon: signalR,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "C++",
+      icon: cplus,
+    },
+    {
+      name: "Ajax",
+      icon: ajax,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -73,45 +112,16 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
+    
   ];
   
   const experiences = [
