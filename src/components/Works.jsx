@@ -9,6 +9,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      
       <Tilt
         options={{
           max: 45,
@@ -50,7 +51,7 @@ const Works = () => {
       </motion.div>
       <div className='w-full flex'>
         <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          FStep very good
+        I would like to share my projects, where I have applied my experience in deploying .NET and ASP.NET APIs. I also use SignalR for real-time communication to enhance interactivity in applications. My focus has been on creating efficient and user-friendly solutions.
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>
@@ -62,4 +63,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "project");

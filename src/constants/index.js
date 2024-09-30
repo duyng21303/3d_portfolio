@@ -19,9 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    
     threejs,
     ajax,
     net_core,
@@ -30,21 +28,64 @@ import {
     csharp,
     cplus,
     java,
+    CV,
+    CVpdf,
+    ecommerce,
+    fstep,
+    playlist,
+    linkedin,
+    githubicon,
+    facebook,
   } from "../assets";
+
+  export const myLink = [
+    {
+      title: "Facebook",
+      url: "https://web.facebook.com/profile.php?id=100025349286175",
+      image: facebook,
+    },
+    {
+      title: "Linkedin",
+      url: "https://www.linkedin.com/in/duy-nguyen-aa159b222/",
+      image: linkedin,
+    },
+    {
+      title: "Github",
+      url: "https://github.com/duyng21303",
+      image: githubicon,
+    },
+  ];
+  
+  export const myCV = [
+    {
+      title: "My CV",
+      image: CV,
+    },
+  ];
+  export const myCVpdf = [
+    {
+      pdf: CVpdf,
+    },
+  ];
   
   export const navLinks = [
+    {
+      id: "resume",
+      title: "Resume",
+    },
     {
       id: "about",
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
-    },
-    {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "project",
+      title: "Project",
+    },
+    
   ];
   
   const services = [
@@ -116,10 +157,10 @@ import {
       icon: tailwind,
     },
     
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
     
     
   ];
@@ -208,37 +249,37 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "FStep",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The platform enables real-time online exchanges between users, using ASP.NET Core for backend management and SignalR for real-time communication, ensuring seamless and instant interactions.",
       tags: [
         {
-          name: "react",
+          name: "ASP.NET Core",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "SQL Server",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "SignalR",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: fstep,
+      source_code_link: "https://github.com/duyng21303/FStep",
     },
     {
-      name: "Job IT",
+      name: "Play list and video",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The platform is a music and video streaming website developed with C# Windows Forms and .Net Core App, allowing users to customize playlists and download content directly from the internet.",
       tags: [
         {
-          name: "react",
+          name: ".Net Core App",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "C# Window forms",
           color: "green-text-gradient",
         },
         {
@@ -246,29 +287,26 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: playlist,
+      source_code_link: "https://github.com/duyng21303/PRN212_Project",
     },
     {
-      name: "Trip Guide",
+      name: "Ecommerce web app",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "It is the first web app I created to familiarize myself with .NET, built using ASP.NET Core MVC. It allows users to buy and sell items, add them to a shopping cart, and proceed to checkout.",
       tags: [
         {
-          name: "nextjs",
+          name: "ASP.NET Core",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Bootstrap",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+       
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ecommerce,
+      source_code_link: "https://github.com/duyng21303",
     },
   ];
   

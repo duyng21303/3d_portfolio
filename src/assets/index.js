@@ -28,17 +28,32 @@ import csharp from "./tech/csharp.png";
 import cplus from "./tech/cplus.png";
 import java from "./tech/java.svg";
 
+import CV from "./CV.png";
+import CVpdf from "./cv.pdf";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import playlist from "./playlist.png";
+import fstep from "./fstep.png";
+import ecommerce from "./ecommerce.png";
+
+import facebook from "./facebook.png";
+import githubicon from "./githubicon.png";
+import linkedin from "./linkedin.png";
+
 
 export {
+  linkedin,
+  githubicon,
+  facebook,
+  ecommerce,
+  fstep,
+  playlist,
+  CVpdf,
+  CV,
   java,
   csharp,
   cplus,
@@ -70,8 +85,5 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   ajax,
 };

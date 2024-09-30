@@ -29,7 +29,9 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
         <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          I'm a skilled software developer in frameworks .NET
+          I'm a software developer in frameworks .NET with experience in OOP, data structures, algorithms, 
+          and DevOps. I'm eager to apply my skills in a real-world environment, gain hands-on experience, 
+          and learn from industry professionals as I tackle new challenges and grow towards a successful career in software development.
         </motion.p>
         <div className='mt-20 flex flex-wrap gap-10'>
           {services.map((service, index) => (
